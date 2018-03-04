@@ -1,0 +1,112 @@
+body{
+	background: linear-gradient(to right, #fff, #d1fffdb0, #fff);
+}
+
+.upperpart{
+	width: 80vw;
+}
+
+.logo{
+	justify-content: flex-start;
+	width: 40vw;
+	/*align-items: center;*/
+}
+
+.logo *{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+}
+
+.title{
+	justify-content: flex-end;
+	width: 40vw;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.name{
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px darkgray;
+}
+
+.titlesub{
+	margin-top: 0;
+	margin-right: 10px;
+	font-style: italic;
+}
+
+.name, .titlesub{
+	text-align: center;
+}
+
+.titlehr{
+	height:4px;
+	background-color:#aaa;
+	border: 0;
+	width:80vw;
+}
+
+.centerbg{
+	width: 90vw;
+	max-height: 500px;
+}
+
+.worktitle{
+	width: 90vw;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.P{
+	font-size: 0.5em;
+}
+
+h2{
+	font-size: 80%;
+}
+
+.project{
+	width: min-content;
+	margin: 5px;
+}
+
+.pimg{
+	width: 200px;
+	height: 200px;
+}
+
+.container, body *{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Raleway',arial,sans-serif;
+	justify-content: center;
+}
+
+@media screen and (max-width: 450px){
+	.title{
+		font-size: 1em;
+		width: auto;
+	}
+
+	.img.img{
+		max-height: 300px;
+	}
+
+	.logo{
+		width: 100px;
+		height: 100px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hcontainer{
+	flex-direction: column;
+    align-items: center;
+	}
+
+	.logoimg{
+		    background: radial-gradient(circle, #fff, #fff, #d1fffdb0, #fff);
+		    margin-top: 10px;
+	}
+}
