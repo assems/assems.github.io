@@ -79,6 +79,10 @@ p {
 	color: #2f2f2f;
 }
 
+.project p {
+	font-family: 'Indie Flower', cursive;
+}
+
 h2 {
 	font-size: 120%;
 }
@@ -104,7 +108,7 @@ a {
 .container, body * {
 	display: flex;
 	flex-wrap: wrap;
-	font-family: 'Aclonica',arial,sans-serif;
+	font-family: 'Aclonica','Indie+Flower',arial,sans-serif;
 	justify-content: center;
 }
 
@@ -185,7 +189,7 @@ a {
 	}
 
 	p {
-		font-size: 80%;
+		font-size: 100%;
 	}
 }
 
@@ -216,6 +220,10 @@ a {
 	.worktitle {
 		font-size: 150%;
 	}
+
+	.pimg {
+		height: 190px;
+	}
 }
 
 @media screen and (min-width: 900px) {
@@ -229,6 +237,10 @@ a {
 
 	.centerbg {
 		max-height: 600px;
+	}
+
+	.pimg {
+		height: 165px;
 	}
 }
 
@@ -245,7 +257,7 @@ a {
 		max-height: 750px;
 	}
 
-	.pimg{
-		width: 220px;
+	.pimg {
+		height: 240px;
 	}
 }
