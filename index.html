@@ -3,47 +3,59 @@
 <head>
 	<title>Assem's Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style2.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
-	    <div class="upperpart">
-	      <header class="hcontainer">
+	    <header class="hcontainer">
 	        <div class="logo">
-	          <img src="img/udacity2.png" class="logoimg" alt="logo"/>
+	          <img src="img/udacity.svg" class="logoimg" alt="logo"/>
 	        </div>
 	        <div class="title">
-	          <h1 class="name">
-	            Assem Said
-	          </h1>
-	          <h3 class="titlesub">
-	            Front-End Pharoa
-	          </h3>
+	          <h1 class="name">Assem Said</h1>
+	          <h3 class="titlesub">Front-End Pharoa</h3>
 	        </div>
-	       </header>
-	    </div>
-		<hr class="titlehr">
+	    </header>
+	    <hr class="titlehr">
 	  	<div class="center">
-	  	<img src="img/gray_tunnel.jpeg" class="centerbg img" alt="Main Center Background"/>
+	  		<img srcset="img/photo400.png 400w, img/photo800.png 800w, img/photo1600.png 1600w" sizes="(max-width: 460px) 400px, (max-width: 900px) 800px, 1600px" src="img/photo1600.png" class="centerbg img" alt="Main Center Image"/>
 	  	</div>
-    	<h1 class="worktitle">
-		        Featured Work
-		</h1>
-		<div class="work">
-	          <div class="project first">
-	            <img src="img/760-SWISH.svg" class="p1img img pimg" alt="First Project Image"/>
-	            <h2><a href="https://www.mywonderfulsite.it/first">FIRST</a></h2>
-	          </div>
-	          <div class="project second">
-	            <img src="img/760-SWISH.svg" class="p2img img pimg" alt="Second Project Image"/>
-	            <h2><a href="https://www.mywonderfulsite.it/second">SECOND</a></h2>
-	          </div>
-	          <div class="project third">
-	            <img src="img/760-SWISH.svg" class="p3img img pimg" alt="Third Project Image"/>
-	            <h2><a href="https://www.mywonderfulsite.it/third">THIRD</a></h2>
-	          </div>
-	    </div>
+    	<div class="content">
+		    	<h2 class="worktitle">Featured Work</h2>
+			<section class="work">
+		          <div class="project first">
+		          	<img src="img/pulb.jpg" class="p1img img pimg" alt="First Project Image"/>
+		          		<h2><a href="http://www.udacity.com">FIRST</a></h2>
+		          		<p>This is my first project</p>
+		          </div>
+		          <div class="project second">
+		            <img src="img/blank.jpg" class="p2img img pimg" alt="Second Project Image"/>
+		            	<h2><a href="http://www.udacity.com">SECOND</a></h2>
+		            	<p>This is my second project</p>
+		          </div>
+		          <div class="project third">
+		            <img src="img/laptop.jpg" class="p3img img pimg" alt="Third Project Image"/>
+		            	<h2><a href="http://www.udacity.com">THIRD</a></h2>
+		            	<p>This is my third project</p>
+		          </div>
+		    </section>
+		</div>
+	    <footer class="fcontainer">
+			<div class="signature">
+				<p>Designed by &copy;Assem&copy;</p>
+			</div>
+			<div class="socialmedia">
+				<a href="https://www.linkedin.com" target="_blank"><img src="img/linkedin.svg" class="ico" alt="LinkedIn Icon"></a>
+				<a href="https://www.github.com" target="_blank"><img src="img/github.svg" class="ico" alt="GitHub Icon"></a>
+				<a href="https://www.facebook.com" target="_blank"><img src="img/facebook.svg" class="ico" alt="Facebook Icon"></a>
+			</div>
+			<div class="validation">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"/>
+				</a>
+			</div>
+	    </footer>
 	</div>
 </body>
 </html>
