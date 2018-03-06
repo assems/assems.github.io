@@ -31,6 +31,8 @@
 	/*margin-right: 10px;*/
 	/*font-style: italic;*/
 	color: #5b5656;
+	font-size: 95%;
+	align-self: flex-end;
 }
 
 .name, .titlesub {
